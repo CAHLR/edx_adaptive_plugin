@@ -1,0 +1,14 @@
+[main]
+host = https://www.transifex.com
+
+[edx-platform.adaptive-learning-plugin]
+file_filter = adaptive_learning_plugin/conf/locale/<lang>/LC_MESSAGES/django.po
+source_file = adaptive_learning_plugin/conf/locale/en/LC_MESSAGES/django.po
+source_lang = en
+type = PO
+
+[edx-platform.adaptive-learning-plugin-js]
+file_filter = adaptive_learning_plugin/conf/locale/<lang>/LC_MESSAGES/djangojs.po
+source_file = adaptive_learning_plugin/conf/locale/en/LC_MESSAGES/djangojs.po
+source_lang = en
+type = PO
